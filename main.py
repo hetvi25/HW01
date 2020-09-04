@@ -78,10 +78,14 @@ elif lettergrade3 == "F":
    gradepoint3 == 0.0
 else:
    gradepoint3 == 0.0
+
+
 print(f"Grade point for course 3 is: {gradepoint3}")
+gradepoint1 = float(gradepoint1)
+gradepoint2 = float(gradepoint2)
+gradepoint3 = float(gradepoint3)
 
-
-GPA = (gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3) 
+GPA = ((gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3))
 print("Your GPA is:",GPA)
 
 
