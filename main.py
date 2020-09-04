@@ -51,7 +51,7 @@ elif lettergrade2 == "F":
    gradepoint2 = 0.0
 else:
    gradepoint2 = 0.0
-print(f"Grade point for course 1 is: {gradepoint2}")
+print(f"Grade point for course 2 is: {gradepoint2}")
 
 
 
@@ -78,7 +78,7 @@ elif lettergrade3 == "F":
    gradepoint3 == 0.0
 else:
    gradepoint3 == 0.0
-print(f"Grade point for course 1 is: {gradepoint3}")
+print(f"Grade point for course 3 is: {gradepoint3}")
 
 
 GPA = (gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3) 
