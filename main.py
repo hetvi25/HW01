@@ -56,7 +56,7 @@ print(f"Grade point for course 2 is: {gradepoint2}")
 
 
 lettergrade3 = input("Enter your course 3 letter grade: ")
-credit3 = float(input("Enter your course 3 credit: "))
+credit3 = int(input("Enter your course 3 credit: "))
 
 if lettergrade3 == "A":
   gradepoint3 = 4.0
@@ -75,9 +75,9 @@ elif lettergrade3 == "C":
 elif lettergrade3 == "D":
   gradepoint3 = 1.0
 elif lettergrade3 == "F":
-  gradepoint3 == 0.0
+  gradepoint3 = 0.0
 else:
-  gradepoint3 == 0.0
+  gradepoint3 = 0.0
 
 
 print(f"Grade point for course 3 is: {gradepoint3}")
